@@ -1,0 +1,43 @@
+/* Write your CSS code here. */
+.feedback-bg-container {
+  background: linear-gradient(to left, #ffeeee, #ffc0bb);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 85vh;
+}
+
+.feedback-display-container {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 40px;
+}
+
+.emoji-container {
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.emoji-icon {
+  width: 70px;
+  height: 60px;
+  cursor: pointer;
+}
+.button {
+  background-color: transparent;
+  outline: none;
+  border-width: 0px;
+}
+.heading {
+  text-align: center;
+  max-width: 100px;
+}
+.love-emoji {
+  list-style-type: none;
+  text-align: center;
+}
